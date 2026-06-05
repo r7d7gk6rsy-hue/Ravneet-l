@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For RAVNEET ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="envelope-overlay" class="slide active" onclick="openLetter()">
+        <img src="envelope.png" class="responsive-img">
+        <button class="glow-button">Open Message</button>
+    </div>
+
+    <div id="letter-content" class="slide">
+        <img src="letter_content.png" class="letter-big">
+        <button onclick="show('wish-slide')">Next</button>
+    </div>
+
+    <div id="wish-slide" class="slide">
+        <h2>Make a Wish! 🕯️</h2>
+        <img src="wish_image.png" class="responsive-img">
+        <button onclick="show('scratch-slide')">Next</button>
+    </div>
+
+    <div id="scratch-slide" class="slide">
+        <h2>SCRATCH ME!!!</h2>
+        <canvas id="canvas" width="300" height="150"></canvas>
+        <button onclick="show('final-slide')">See Wish</button>
+    </div>
+
+    <div id="final-slide" class="slide">
+        <div class="scrollable-letter">
+            <h2 class="brilliant-font">Happy Birthday, Rav ❤️</h2>
+            <p>Honestly, that number feels strange because in my head you’re still the guy who thought my account was fake.</p>
+            <p>It’s funny how life works. A random accident, one unexpected conversation, and somehow a bond neither of us ever planned for. If someone had told me back then that this person would become so important to me, I would’ve laughed and said, “Bilkul nahi.”</p>
+            <p>But I guess that’s the thing about life. And maybe that’s the thing about God’s plan too.</p>
+            <p>Some people walk into our lives with an announcement. Others just appear quietly and somehow become a part of our everyday thoughts, prayers, and smiles. You became one of those people for me.</p>
+            <p>Somewhere between all our conversations, your jersey number 18, your impossible-to-keep-alive phone battery, and your endless support, you became someone I genuinely cherish.</p>
+            <p>Rav, I don’t think I’ve ever told you this properly, but I’m so proud of you. Proud of the cricketer you are becoming. Proud of the discipline people don’t see. Proud of the effort you put in when nobody is clapping. Proud of the person you are behind all of it.</p>
+            <p>You have this habit of showing up for people even when you’re carrying your own struggles, and that says so much about your heart.</p>
+            <p>Sach kahun, every time you talk about cricket, your dreams, your matches, I can see how much it means to you. And whether it’s a good day or a difficult one, whether it’s a century or a lesson disguised as a setback, I’ll always be proud of the fact that you keep going.</p>
+            <p><strong>Tu bahut door jayega, Rav.</strong></p>
+            <p>And when you do, I hope you remember there were people cheering for you long before the world knew your name.</p>
+            <p>And if your phone battery survives long enough to read this entire letter in one go, then congratulations—today’s birthday miracle has officially happened. But honestly, the bigger miracle was us.</p>
+            <p>Rab di marzi ajeeb hundi hai na? Out of billions of people in the world, somehow our paths crossed. And Rav, I’ll always be grateful that they did.</p>
+            <p><em>Some meetings are written softly, Not in stars loud enough for the world to see, But in quiet corners of destiny, Where two strangers become a memory they never expected to keep.</em></p>
+            <p>Maybe that’s why you feel special to me. Because you weren’t a wish I made, or a dream I spent nights chasing. You were a chapter that arrived unannounced, and somehow became one of my favourites.</p>
+            <p>Years from now, when time has carried us far from this moment, I won’t remember every conversation word for word. But I’ll remember how you made me feel—Seen. Supported. Understood.</p>
+            <p>And in a world where people come and go like seasons, That is no small thing.</p>
+            <p>Thank you, Rav. For the support. For the laughter. For the comfort. For the patience. For being one of the sweetest souls I’ve ever met.</p>
+            <p>I hope 19 brings you everything you’ve been working for. I hope your prayers are answered. I hope your hard work pays off. I hope jersey number 18 creates memories you’ll tell stories about one day. I hope your heart stays kind. And I hope life is as gentle with you as you’ve been with the people around you.</p>
+            <p>Once again Happy Birthday mere gods plan ❤️‍🩹</p>
+            <p>You’ll always be one of my favourite people and one of my favourite blessings.</p>
+            <p>Te haan… phone charge kar liya kar. 😭❤️</p>
+            <p>Always cheering for you🥰<br>Aarika💋</p>
+        </div>
+    </div>
+</div>
+
+<audio id="audio" src="birthday_song.mp3"></audio>
+<script src="script.js"></script>
+</body>
+</html>
